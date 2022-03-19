@@ -1,3 +1,29 @@
+/* Палитра
+Цвет шапки фона
+
+
+*/
+body{
+    color: #757575;
+}
 ul{
     list-style: none;
+}
+.hide-text{
+}
+.company-name-word{
+    color:#2196F3;
+}
+.order-section{
+  background-color: #2F303A;
+}
+.main-text-section{
+  color:  #FFFFFF;
+}
+.information-section{
+    background-color: #FFFFFF;
+}
+.team-section{
+    background-color: #F5F4FA;
+;
 }
