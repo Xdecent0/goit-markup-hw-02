@@ -6,7 +6,7 @@
 ТЕКСТ
 Основной цвет: #757575
 Дополнительный цвет: #2196F3
-Дополнительный цвет: #212121;
+Дополнительный цвет: #212121
 */
 body{
     background-color:#FFFFFF;
@@ -15,8 +15,30 @@ body{
 .logo{
     color: #212121;
 }
-ul{
+.site-nav .nav-link{
+    color: #212121;
+}
+.contacts-nav .contacts-link{
+    color:#757575;
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus,
+.contacts-nav .contacts-link:hover,
+.contacts-nav .contacts-link:focus,
+.contacts-nav .address-link:hover,
+.contacts-nav .address-link:focus
+{
+    color:#2196F3;
+}
+.section-list
+{
     list-style: none;
+}
+.section-link{
+    text-decoration: none;
+}
+.section-title{
+    color:#212121;
 }
 .hide-text{
 }
@@ -25,12 +47,14 @@ ul{
 }
 .order-section,
 .footer-section{
-  background-color: #2F303A;
+    background-color: #2F303A;
 }
 .main-text-section{
-  color:  #FFFFFF;
+    color:  #FFFFFF;
 }
 .team-section{
     background-color: #F5F4FA;
-;
+}
+.address-link{
+ color:  #FFFFFF;
 }
