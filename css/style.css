@@ -1,10 +1,19 @@
 /* Палитра
-Цвет шапки фона
-
-
+ФОНЫ
+Цвет шапки фона: #FFFFFF 
+Доп цвет заднего фона: #F5F4FA
+Цвет подвала: #2F303A
+ТЕКСТ
+Основной цвет: #757575
+Дополнительный цвет: #2196F3
+Дополнительный цвет: #212121;
 */
 body{
+    background-color:#FFFFFF;
     color: #757575;
+}
+.logo{
+    color: #212121;
 }
 ul{
     list-style: none;
@@ -14,14 +23,12 @@ ul{
 .company-name-word{
     color:#2196F3;
 }
-.order-section{
+.order-section,
+.footer-section{
   background-color: #2F303A;
 }
 .main-text-section{
   color:  #FFFFFF;
-}
-.information-section{
-    background-color: #FFFFFF;
 }
 .team-section{
     background-color: #F5F4FA;
