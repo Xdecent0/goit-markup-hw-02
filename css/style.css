@@ -51,6 +51,7 @@ button:hover,
 button:focus{
     background-color:var(--hover-text-color);
     color:var(--primary-background-color);
+    cursor: pointer;
 }
 .section-list
 {
