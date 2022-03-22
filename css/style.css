@@ -8,18 +8,30 @@
 Дополнительный цвет: #2196F3
 Дополнительный цвет: #212121
 */
-body{
-    background-color:#FFFFFF;
-    color: #757575;
+:root{
+    /* Цвета текста */
+    --primary-text-color: #757575;
+    --additional-text-color: #212121;
+    --hover-text-color: #2196F3; 
+    /* Цвета фона */
+    --primary-background-color: #FFFFFF;
+    --additional-background-color: #F5F4FA;
+    --footer-background-color:#2F303A;
+
 }
+body{
+    background-color:var(--primary-background-color);
+    color: var(--primary-text-color);;
+}
+/* Шапка */
 .logo{
-    color: #212121;
+    color: var(--additional-text-color);
 }
 .site-nav .nav-link{
-    color: #212121;
+    color: var(--additional-text-color);
 }
 .contacts-nav .contacts-link{
-    color:#757575;
+    color:var(--primary-text-color);
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
@@ -28,7 +40,17 @@ body{
 .contacts-nav .address-link:hover,
 .contacts-nav .address-link:focus
 {
-    color:#2196F3;
+    color:var(--hover-text-color);
+}
+button{
+background-color:var(--additional-background-color);
+color: var(--additional-text-color);
+border: none;
+}
+button:hover,
+button:focus{
+    background-color:var(--hover-text-color);
+    color:var(--primary-background-color);
 }
 .section-list
 {
@@ -38,7 +60,7 @@ body{
     text-decoration: none;
 }
 .section-title{
-    color:#212121;
+    color:var(--additional-text-color);
 }
 .hide-text{
 }
@@ -47,14 +69,14 @@ body{
 }
 .order-section,
 .footer-section{
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
 }
 .main-text-section{
-    color:  #FFFFFF;
+    color:  var(--primary-background-color);
 }
 .team-section{
-    background-color: #F5F4FA;
+    background-color: var(--additional-background-color);
 }
 .address-link{
- color:  #FFFFFF;
+    color:  var(--primary-background-color);
 }
