@@ -81,6 +81,9 @@ body{
     font-size: 14px;
     line-height: 1.14;
 }
+.section-list-header{
+    text-transform: uppercase;
+}
 .section-header{
     font-weight: 700;
     font-size: 36px;
