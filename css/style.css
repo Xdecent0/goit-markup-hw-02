@@ -23,7 +23,7 @@ body{
     background-color:var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.18;
     letter-spacing: 0.03em;
 
@@ -43,12 +43,16 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.address-link{
+     font-style: normal;
+}
 .contacts-nav .contacts-link{
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    font-style: normal;
 
 }
 .main-text-section{
@@ -56,6 +60,7 @@ body{
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .order-section-button{
     color:var(--primary-background-color);
@@ -130,7 +135,7 @@ button:focus{
 /* .hide-text{
 } */
 .company-name-word{
-    color:#2196F3;
+    color:var(--hover-text-color);
 }
 .order-section,
 .footer-section{
