@@ -165,3 +165,8 @@ button:focus{
 .address-link{
     color:  var(--primary-background-color);
 }
+.studio-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
