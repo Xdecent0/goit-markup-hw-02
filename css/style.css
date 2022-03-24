@@ -145,6 +145,7 @@ button:focus{
 .order-section,
 .footer-section{
     background-color: var(--footer-background-color);
+    font-weight: normal;
 }
 .footer-link{
     font-size: 14px;
