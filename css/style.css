@@ -43,7 +43,7 @@ body{
     letter-spacing: 0.02em;
 }
 .address-link{
-     font-style: normal;
+    font-style: normal;
 }
 .contacts-nav .contacts-link{
     color:var(--primary-text-color);
@@ -75,11 +75,6 @@ body{
     font-size: 16px;
     line-height: 1.62;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-}
 .section-list-header{
     text-transform: uppercase;
 }
@@ -88,16 +83,22 @@ body{
     font-size: 36px;
     line-height: 1.16;
 }
+.example-link{
+    text-decoration: none;
+    color:var(--primary-text-color);
+}
 .example-header{
     color:var(--additional-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-decoration: none;
 }
 .example-paragraph{
     font-size: 16px;
     line-height: 1.18;
+    text-decoration: none;
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
@@ -130,9 +131,11 @@ button:focus{
 }
 .section-link{
     text-decoration: none;
-}
+} 
 .section-title{
     color:var(--additional-text-color);
+    font-size: 16px;
+    line-height: 1.18;
 }
 /* .hide-text{
 } */
@@ -142,6 +145,15 @@ button:focus{
 .order-section,
 .footer-section{
     background-color: var(--footer-background-color);
+}
+.footer-link{
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.section-title-text{
+    font-size: 16px;
+    line-height: 1.18;
 }
 .main-text-section{
     color:  var(--primary-background-color);
