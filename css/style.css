@@ -17,7 +17,6 @@
     --primary-background-color: #FFFFFF;
     --additional-background-color: #F5F4FA;
     --footer-background-color:#2F303A;
-
 }
 body{
     background-color:var(--primary-background-color);
